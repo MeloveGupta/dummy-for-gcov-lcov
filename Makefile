@@ -1,5 +1,5 @@
 # Makefile for calculator coverage project
-# just basic targets nothing fancy
+# just basic targets
 
 # build the test
 build:
@@ -20,7 +20,6 @@ coverage: run
 	@echo "done! open coverage_report/index.html to see the report"
 
 # clean up all the generated files
-# there are so many lol
 clean:
 	rm -f test_calculator
 	rm -f *.o *.gcda *.gcno *.gcov
