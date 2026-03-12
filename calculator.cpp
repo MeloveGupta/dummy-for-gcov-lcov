@@ -1,16 +1,15 @@
 // calculator.cpp
 // this file has all the math functions for the calculator
-// i tried to keep it simple... not sure if everything is right
 
 #include "calculator.h"
 #include <iostream>
 
-// this function adds two number together i think
+// this function adds two number together
 int add(int a, int b) {
     return a + b;
 }
 
-// subtracts b from a... pretty straightforward
+// subtracts b from a...
 int subtract(int a, int b) {
     return a - b;
 }
@@ -20,8 +19,7 @@ int multiply(int a, int b) {
     return a * b;
 }
 
-// divison function... handles divide by zero
-// i copied this from stackoverflow lol
+// divison function(handles divide by zero)
 float divide(float a, float b) {
     if (b == 0) {
         std::cout << "error: cant divide by zero!!" << std::endl;
@@ -41,8 +39,6 @@ int absolute(int num) {
 }
 
 // calculates base to the power of exp
-// TODO: test this later... forgot
-// i know there is pow() but i wanted to write it myself
 int power(int base, int exp) {
     if (exp == 0) {
         return 1;
