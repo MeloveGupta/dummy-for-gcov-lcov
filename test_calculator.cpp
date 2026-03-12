@@ -1,7 +1,7 @@
 // test_calculator.cpp
 // this file tests the calculator functions
-// i didnt use any testing framework because i dont know how to set one up yet
-// so i just used if statements and cout... it works i think
+// i didnt use any testing framework
+// so i just used if statements and count
 
 #include "calculator.h"
 #include <iostream>
@@ -12,7 +12,7 @@ int tests_passed = 0;
 int tests_failed = 0;
 
 // simple test function i made
-// not sure if this is how your supposed to do it but whatever
+// not sure if this is how your supposed to do it
 void check(string test_name, bool condition) {
     if (condition) {
         cout << "  PASS: " << test_name << endl;
@@ -49,7 +49,6 @@ int main() {
     check("-2 * 3 = -6", multiply(-2, 3) == -6);
     cout << endl;
 
-    // i should test divide and power too but im running out of time
     // will add more tests later probably
 
     // testing absolute
