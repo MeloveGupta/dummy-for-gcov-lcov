@@ -1,0 +1,11 @@
+# compiled stuff
+test_calculator
+
+# gcov files
+*.gcda
+*.gcno
+*.gcov
+
+# lcov files
+coverage.info
+coverage_report/
